@@ -1,0 +1,54 @@
+.footer {
+  width: 273px;
+  padding: 29px 20px 29px 20px;
+  background: #fff;
+  text-align: center;
+
+  &__title {
+    font-size: 14px;
+    font-weight: 900;
+    color: #777777;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+
+  &__logo {
+    margin: 8px 7px 8px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 20px;
+  }
+
+  &__logo--rdio {
+    background: linear-gradient(0deg, #6A5BB4,#C28BE5);
+  }
+
+  &__logo--css {
+    background: linear-gradient(0deg, #4DBDC4, #6FEACC);
+  }
+
+  &__logo--deviantart {
+    background: linear-gradient(0deg, #B3717A, #F7CCAE);
+  }
+
+  &__logo--xing {
+    background: linear-gradient(0deg, #8B4EB5, #7E92E5);
+  }
+
+  &__logo--vimeo {
+    background: linear-gradient(0deg, #578DE7, #40CFE0);
+  }
+
+  &__logo--vk {
+    background: linear-gradient(0deg, #F59083, #FBD78C);
+  }
+}

@@ -1,0 +1,301 @@
+@media 
+	(max-width: 1365px) {
+    
+    .main {
+      width: 100%;
+      max-width: 985px;
+    }
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .main__div {
+      display: flex;
+      justify-content: flex-end;
+      width: calc(100% - 70px);
+    }
+
+
+/* Schedule
+=========================================*/
+
+    .schedule {
+      display: flex;
+      justify-content: center;
+      margin: 0 0 18px 0;
+      width: 100%;
+      background: #fff;
+    }
+
+
+/* Revenue
+=========================================*/
+
+    .revenue {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 18px;
+      width: 100%;
+      padding-top: 31px;
+      padding-bottom: 30px;
+      background: #fff;
+    }
+
+
+/* Customers
+=========================================*/
+
+    .customers {
+      width: 100%;
+      padding: 31px 30px 35px 30px;
+      background: #fff;
+      margin-bottom: 18px;
+    }
+
+    /* Task
+=========================================*/
+
+    .task {
+      width: 501px;
+      padding: 32px 30px 23px 30px;
+      background: #fff;
+      margin-bottom: 18px;
+    }
+
+/* Aside
+=========================================*/
+
+    .aside__footer {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .aside {
+      width: 273px;
+      height: 100%;
+      background: #fff;
+
+      &__messages {
+        overflow: scroll;
+        width: 273px;
+        height: 100%;
+        margin-top: 6px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+} 
+
+@media 
+	(max-width: 1080px) {
+
+    .searc--line {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 200px;
+      height: 34px;
+      background: #F8F8F8;
+      border-radius: 30px;
+      border: 1px solid #f1f1f1;
+      
+    }
+
+/* Schedule
+=========================================*/
+
+    .section {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .schedule {
+      display: flex;
+      justify-content: center;
+      margin: 0 0 18px 0;
+      background: #fff;
+      width: calc(100vw - 379px);
+    }
+
+    .schedule__overflow {
+      overflow: scroll;
+      width: 375px;
+    }
+    
+    .containe{
+      padding: 30px;
+      
+    }
+  }
+
+@media 
+	(max-width: 880px) {
+    .main__div {
+      display: flex;
+      width: 100%;
+    }
+
+    .user {
+      display: flex;
+      flex-wrap: wrap;
+    
+      &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 78px;
+        border-right: 1px solid #F1F1F1;
+        padding-left: 19px;
+        padding-right: 19px;
+      }
+    
+      &__search {
+        width: 60px;
+        padding-left: 19px;
+        padding-right: 19px;
+        display: flex;
+        border-right: 1px solid #F1F1F1;
+      }
+    }
+
+    .nav {
+      display: none;
+      
+      &__item {
+        display: none;
+      }
+    
+      &__logo {
+        display: none;
+      }
+    
+      &__link {
+        display: none;
+      }
+    
+    
+      &__home {
+        display: none;
+      }
+    
+      &__stactics {
+        display: none;
+      }
+    
+      &__user {
+        display: none;
+      }
+    
+      &__settings {
+        display: none;
+      }
+    
+      &__quires {
+        display: none;
+      }
+    
+      &__power {
+        display: none;
+      }
+    }
+    .header {
+      width: 100%;
+      background: #fff;
+    }
+
+    
+    .main__div {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+
+    .schedule {
+      display: flex;
+      justify-content: center;
+      margin: 0 0 18px 0;
+      background: #fff;
+      width: calc(100vw - 309px);
+    }
+  }
+
+  @media 
+	(max-width: 810px) {
+
+    .main__div {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .schedule {
+      display: flex;
+      justify-content: center;
+      margin: 0 0 18px 0;
+      background: #fff;
+      width: calc(100vw - 36px);
+    }
+  }
+
+  @media 
+	(max-width: 768px) {
+    .main__div {
+      max-width: 768px;
+      width: 100%;
+    }
+
+    .aside {
+      max-width: 768px;
+      width: 100vw;
+      background: #fff;
+    }
+
+    .footer {
+      max-width: 768px;
+      width: 100%;
+      padding: 29px 20px 33px 20px;
+      background: #fff;
+      text-align: center;
+    }
+  }
+
+  @media 
+  (max-width: 535px) {
+
+    .main {
+      width: 100%;
+      max-width: 985px;
+      margin: 18px 0 0 0;
+    }
+
+    .schedule {
+      display: flex;
+      justify-content: center;
+      margin: 0 0 18px 0;
+      background: #fff;
+      width: 100vw;
+    }
+  }
+
+  @media 
+  (max-width: 500px) {
+    
+    .task {
+      margin-bottom: 18px;
+      width: 100vw;
+      padding: 32px 27px 23px 27px;
+      background: #fff;
+    }
+
+    &__list {
+      overflow: scroll;
+      width: 300px;
+      height: 158px;
+      overflow: scroll;
+      margin-top: 20px;
+      border-top: 1px solid #EDEDED;
+      border-bottom: 1px solid #EDEDED;
+    }
+  }
